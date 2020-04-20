@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "operations": [
+    {
+      "signature": "fb094f9a6226426e2b821979465bad784f159e43f9af95deb0b4ef3b02878485",
+      "document": "mutation DeleteIt($id:Int!){delete_name(id:$id){__typename id}}",
+      "metadata": {
+        "engineSignature": ""
+      }
+    },
+    {
+      "signature": "77fa1077b9c31c0c62df35797d8c496bbee92b43ca750f29478e599a06a4d231",
+      "document": "query MyQuery{users{id name}}",
+      "metadata": {
+        "engineSignature": ""
+      }
+    }
+  ]
+}

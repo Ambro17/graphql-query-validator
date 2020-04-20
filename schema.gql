@@ -1,0 +1,9 @@
+type Query {
+    users: [User]
+}
+type Mutation {
+    mutate_it: Int
+}
+type User {
+    id: Int
+}
